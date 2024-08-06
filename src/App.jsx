@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/Indian-Budget" element={<HomePage />}></Route>
         <Route path="/sankey" element={<EChart options={sankeyOption}/>}></Route>
         <Route path="/sunburst" element={<EChart options={sunBurstOption}/>}></Route>
       </Routes>
